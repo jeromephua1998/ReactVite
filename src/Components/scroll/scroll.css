@@ -1,0 +1,45 @@
+.scroll-wrapper {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .arrow {
+    cursor: pointer;
+    color: rgb(2, 2, 2);
+    opacity: 0.4;
+    transition: opacity 0.3s;
+  }
+  
+  .arrow:hover {
+    opacity: 1;
+  }
+  
+  .scroll-container {
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    scrollbar-width: none; /* Firefox */
+  }
+  
+  .scroll-container::-webkit-scrollbar {
+    display: none; /* Chrome */
+  }
+  
+
+  
+  .image:hover {
+    transform: scale(1.05);
+  }
+  
+  .image {
+    width: 250px;
+    height: 250px; 
+    display: inline-block;
+    padding: 4px;
+    margin: 2px;
+    border-radius: 20px;
+    transition: transform 0.2s ease;
+    object-fit: cover;
+    box-sizing: border-box;
+  }

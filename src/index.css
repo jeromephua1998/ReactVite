@@ -1,0 +1,22 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 100vw;
+  min-height: 100vh;
+  background: #ffffff;
+  transition: 0.5;
+  max-width: 100%; /* Ensure the container doesn't extend past the viewport */
+  overflow: hidden;
+}
+
+.container.dark{
+  background: #222;
+}
