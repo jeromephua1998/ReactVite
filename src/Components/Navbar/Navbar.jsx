@@ -6,12 +6,12 @@ import search_icon_light from '../../assets/search-w.png'
 import toggle_light from '../../assets/night.png' 
 import toggle_dark from '../../assets/day.png' 
 import logo_bb from '../../assets/bb.png'
-
+import logo_mus from '../../assets/mustard.jpg'
 
 const Navbar = () => {
     return(
         <div className = 'navbar'>
-          <img src ={logo_bb} alt ="" className = 'logo'/>
+          <img src ={logo_mus} alt ="" className = 'logo'/>
         <ul>
           <li>Home</li>
           <li>Products</li>
